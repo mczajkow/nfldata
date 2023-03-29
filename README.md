@@ -11,7 +11,7 @@ This uses a generator set up for eventual passing of objects via JSON over Pytho
 
 `> openapi-generator generate -g python-flask -i api/openapi.yaml -o gen/ --package-name nfldata`
 
-This is a more general purpose Python generator:
+This is a more general purpose Python generator in case flask was not your goal:
 
 `> openapi-generator generate -g python -i api/openapi.yaml -o gen/ --package-name nfldata`
 
